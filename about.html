@@ -33,6 +33,23 @@
 		
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+		
+		<style>
+			.single-brand{
+				background: #0d1240;
+				width: 170px;
+				height: 120px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.single-brand img{
+				width: 120px !important;
+				object-fit: contain;
+			}
+		</style>
 		
         <!-- TITLE -->
         <title>About</title>
@@ -54,7 +71,7 @@
 				<!-- Menu For Mobile Device -->
 				<div class="mobile-nav">
 					<a href="index.html" class="logo">
-						<img src="assets/img/navlogo.png" style="width: 200px; height:50px" alt="Logo">
+						<img src="assets/img/navlogo.png" style="height:40px"  alt="Logo">
 					</a>
 				</div>
 				<!-- Menu For Desktop Device -->
@@ -62,18 +79,18 @@
 					<nav class="navbar navbar-expand-md navbar-light">
 						<div class="container">
 							<a class="navbar-brand" href="index.html">
-								<img src="assets/img/navlogo.png" style="width: 250px; height: 50px;"  alt="Logo">
+								<img src="assets/img/navlogo.png" style="height:40px"   alt="Logo">
 							</a>
 							<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 								<ul class="navbar-nav m-auto">
 									<li class="nav-item">
-										<a href="index.html" class="nav-link dropdown-toggle active">
+										<a href="index.html" class="nav-link dropdown-toggle">
 											Home
 										</a>
 
 									</li>
 									<li class="nav-item">
-										<a href="./about.html" class="nav-link dropdown-toggle">
+										<a href="./about.html" class="nav-link dropdown-toggle active">
 											About
 										</a>
 									</li>
@@ -366,49 +383,64 @@
 		</section> -->
 		<!-- End Client Area -->
 
-		<!-- Start Brand Area -->
-		<div class="brand-area pt-100 pb-70">
-			<div class="container">
-				<div class="brand-list">
-					<div class="single-brand">
-						<a href="#">
-							<img src="assets/img/brand/startup.png" alt="Image">
-						</a>
-					</div>
-					<div class="single-brand">
-						<a href="#">
-							<img src="assets/img/brand/2.png"  width="100px" alt="Image">
-						</a>
-					</div>
-					<div class="single-brand">
-						<a href="#">
-							<img src="assets/img/brand/3.png" alt="Image">
-						</a>
-					</div>
-					<div class="single-brand">
-						<a href="#">
-							<img src="assets/img/brand/4.png" alt="Image">
-						</a>
-					</div>
-					<div class="single-brand">
-						<a href="#">
-							<img src="assets/img/brand/22.png" width="500px" alt="Image">
-						</a>
-					</div>
-					<div class="single-brand">
-						<a href="#">
-							<img src="assets/img/brand/33.png" width="500px" alt="Image">
-						</a>
-					</div>
-					<div class="single-brand">
-						<a href="#">
-							<img src="assets/img/brand/44.jpg" width="500px" alt="Image">
-						</a>
-					</div>
+	<!-- Start Brand Area -->
+	<div class="brand-area ptb-100">
+		<div class="container">
+			<div class="brand-wrap owl-carousel owl-theme">
+				<div class="single-brand">
+					<a href="https://www.startupindia.gov.in/">
+						<img src="assets/img/brand/startup.png" alt="Image">
+					</a>
+				</div>
+				<div class="single-brand">
+					<a href="http://www.du.ac.in/ducc/">
+						<img src="assets/img/brand/2.png" width="500px" alt="Image">
+					</a>
+				</div>
+				<div class="single-brand">
+					<a href="http://www.angethaagro.com/">
+						<img src="assets/img/brand/3.png" alt="Image">
+					</a>
+				</div>
+				<div class="single-brand">
+					<a href="https://play.google.com/store/apps/details?id=com.innovativescripts.leadindia">
+						<img src="assets/img/brand/4.png" width="500px" alt="Image">
+					</a>
+				</div>
+				<div class="single-brand">
+					<a href="#">
+						<img src="assets/img/brand/22.png" width="500px" alt="Image">
+					</a>
+				</div>
+				<div class="single-brand">
+					<a href="https://thehideouts.in/">
+						<img src="assets\img\brand\hideouts.png" width="500px" alt="Image">
+					</a>
+				</div>
+				<div class="single-brand">
+					<a href="https://alchemyextraction.solutions/">
+						<img src="assets/img/brand/44.jpg" width="500px" alt="Image">
+					</a>
+				</div>
+				<div class="single-brand">
+					<a href="http://ishanm.com/">
+						<img src="assets\img\brand\ishanM.png" width="500px" alt="Image">
+					</a>
+				</div>
+				<div class="single-brand">
+					<a href="https://femely.in/">
+						<img src="assets\img\brand\femely_logo.png" width="500px" alt="Image">
+					</a>
+				</div>
+				<div class="single-brand">
+					<a href="https://certificatex.io/">
+						<img src="assets\img\brand\certificateX.png" width="500px" alt="Image">
+					</a>
 				</div>
 			</div>
 		</div>
-		<!-- End Brand Area -->
+	</div>
+	<!-- End Brand Area -->
 
 		<!-- Start Team Area -->
 		<section class="team-area team-inner-area pb-70">
@@ -653,7 +685,7 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="single-widget">
 						<a href="index.html">
-							<img src="assets/img/logo.png" alt="Image">
+							<img src="assets/img/logo.png" style="height:200px" alt="Image">
 						</a>
 						<p> </p>
 						<ul class="social-icon">
@@ -683,8 +715,8 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<!-- <div class="single-widget">
-						<h3>Services</h3>
+					<div class="single-widget d-flex" style="flex-wrap: wrap;">
+						<!-- <h3>Services</h3>
 						<ul>
 							<li>
 								<a href="#">
@@ -692,8 +724,11 @@
 									Big Data
 								</a>
 							</li>
-						</ul>
-					</div> -->
+						</ul> -->
+
+						<img src="assets\img\brand\azaadi.png" width="200px" alt="Image">
+						<img src="assets\img\brand\moeino.png" style="width: 100%; object-fit: contain;"alt="Image">
+					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<!-- <div class="single-widget">
